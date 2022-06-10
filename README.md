@@ -24,6 +24,7 @@ virtualenv venv
 source venv/bin/activate
 
 # Installation des modules
+
 pip install -r requirements.txt
 
 # Configurer python-dotenv
