@@ -4,6 +4,8 @@
 
 - installer un environnement virtuel pour le développement grace a python-dotenv
 
+- ECRIRE UNE TEST_KEY = 123456789 et l'appeler grace à dotenv
+
 - installer une application flask avec un template et afficher la page Home
 
 # Installer un environnement virtuel
@@ -40,6 +42,7 @@ et coller
 FLASK_APP=app.py
 FLASK_ENV=development
 DEBUG = True
+TEST_KEY = 123456789
 
 # Démarrer le projet
 cd app
